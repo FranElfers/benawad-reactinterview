@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+* {
+  color: #bbb;
+  background: #282c34
+}
+
+th {
+  height: 50px;
+  cursor: pointer;
+  font-size: 1.3em;
+  border: 1px solid transparent;
+  text-transform: capitalize;
+}
+
+th:hover {
+  border: 1px solid lightgrey;
+}
+
+input {
+  color: black;
+  background: white;
+}
+
+p {
+  color: #fff;
+}
