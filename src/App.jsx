@@ -72,7 +72,7 @@ function App() {
   },[])
 
   return <div className="App">
-    <input onClick={searcher} placeholder="Search" />
+    <input onChange={searcher} placeholder="Search" />
     <table style={{width: '100%'}}>
       <thead>
         <tr>{headers.map(text => 
